@@ -1,0 +1,29 @@
+FAST Racing NEO NEX server (Protarium Network)
+Licensed under the GNU Affero General Public License v3.0. See LICENSE.
+
+This project is a clean-room reimplementation of the Wii U NEX
+(matchmaking/ranking) protocol for FAST Racing NEO, built on top of
+Pretendo Network's open-source Go libraries:
+
+  - nex-go               https://github.com/PretendoNetwork/nex-go
+  - nex-protocols-go      https://github.com/PretendoNetwork/nex-protocols-go
+  - nex-protocols-common-go
+                          https://github.com/PretendoNetwork/nex-protocols-common-go
+  - plogger-go            https://github.com/PretendoNetwork/plogger-go
+
+All are licensed under the GNU Affero General Public License v3.0.
+
+`third_party/nex-protocols-common-go-trace` is a locally modified fork of
+`nex-protocols-common-go`: it adds per-protocol call tracking/logging
+(`tracking/log_*.go` files) alongside the upstream matchmaking, matchmake
+extension, and ranking handlers. Everything else in that tree is
+unmodified upstream code. This notice serves as the AGPL-3.0 Section 5
+statement that the file has been changed and carries a relevant date.
+
+The guest account credential in globals/accounts.go ("guest" /
+"MMQea3n!fsik") is not a Protarium secret — it's the well-known default
+guest login built into the Quazal/NEX middleware itself, used by some
+titles before a real account login.
+
+No proprietary Nintendo, Shin'en Multimedia, or other third-party game
+code or assets are included in this repository.

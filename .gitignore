@@ -1,0 +1,8 @@
+/log/
+/nexserver/log/
+/tests/__pycache__/
+/data/
+/build/
+.env
+.env.*
+!.env.example

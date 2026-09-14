@@ -1,0 +1,29 @@
+{
+  "scores": {
+    "7": {
+      "1800000001": {
+        "pid": 1800000001,
+        "uniqueId": 0,
+        "category": 7,
+        "score": 9000,
+        "orderBy": 0,
+        "groups": "AAA=",
+        "param": 111,
+        "updateTime": 135999320100
+      },
+      "1800000002": {
+        "pid": 1800000002,
+        "uniqueId": 0,
+        "category": 7,
+        "score": 8000,
+        "orderBy": 0,
+        "groups": "AAA=",
+        "param": 222,
+        "updateTime": 135999320100
+      }
+    }
+  },
+  "commonData": {
+    "42": "Z2hvc3QtZGF0YS1ibG9i"
+  }
+}

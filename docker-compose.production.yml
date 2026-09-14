@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  fast-racing-neo:
+    build: .
+    container_name: fast-racing-neo
+    restart: always
+    env_file:
+      - .env.production
+    ports:
+      - "26500:26500/udp"
+      - "26501:26501/udp"
+    volumes:
+      - ./data:/app/data
