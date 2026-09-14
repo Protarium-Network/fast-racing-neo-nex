@@ -1,7 +1,8 @@
 # FAST Racing NEO — standalone NEX server
 
-Protarium's standalone Wii U server for *FAST Racing NEO*, implemented with
-Pretendo Network's `nex-go`, `nex-protocols-go`, and
+Protarium's standalone Wii U server for *FAST Racing NEO*, derived from
+[Pretendo Network](https://github.com/PretendoNetwork)'s open-source NEX
+stack — built on their `nex-go`, `nex-protocols-go`, and
 `nex-protocols-common-go` libraries.
 
 ## Verified game identity

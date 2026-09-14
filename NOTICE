@@ -1,9 +1,10 @@
 FAST Racing NEO NEX server (Protarium Network)
 Licensed under the GNU Affero General Public License v3.0. See LICENSE.
 
-This project is a clean-room reimplementation of the Wii U NEX
-(matchmaking/ranking) protocol for FAST Racing NEO, built on top of
-Pretendo Network's open-source Go libraries:
+This project is derived from Pretendo Network (https://github.com/PretendoNetwork),
+an open-source reimplementation of Nintendo's discontinued Wii U/3DS online
+services. It reimplements the Wii U NEX (matchmaking/ranking) protocol for
+FAST Racing NEO on top of Pretendo Network's open-source Go libraries:
 
   - nex-go               https://github.com/PretendoNetwork/nex-go
   - nex-protocols-go      https://github.com/PretendoNetwork/nex-protocols-go
